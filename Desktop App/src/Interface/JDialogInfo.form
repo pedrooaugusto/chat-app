@@ -1,0 +1,242 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<Form version="1.3" maxVersion="1.9" type="org.netbeans.modules.form.forminfo.JDialogFormInfo">
+  <NonVisualComponents>
+    <Component class="javax.swing.JTextField" name="jTextField2">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="jTextField2"/>
+      </Properties>
+    </Component>
+    <Container class="javax.swing.JScrollPane" name="jScrollPane1">
+      <AuxValues>
+        <AuxValue name="autoScrollPane" type="java.lang.Boolean" value="true"/>
+      </AuxValues>
+
+      <Layout class="org.netbeans.modules.form.compat2.layouts.support.JScrollPaneSupportLayout"/>
+      <SubComponents>
+        <Component class="javax.swing.JTextPane" name="jTextPane1">
+        </Component>
+      </SubComponents>
+    </Container>
+    <Container class="javax.swing.JScrollPane" name="jScrollPane2">
+      <AuxValues>
+        <AuxValue name="autoScrollPane" type="java.lang.Boolean" value="true"/>
+      </AuxValues>
+
+      <Layout class="org.netbeans.modules.form.compat2.layouts.support.JScrollPaneSupportLayout"/>
+      <SubComponents>
+        <Component class="javax.swing.JTextPane" name="jTextPane2">
+        </Component>
+      </SubComponents>
+    </Container>
+    <Container class="javax.swing.JScrollPane" name="jScrollPane3">
+      <AuxValues>
+        <AuxValue name="autoScrollPane" type="java.lang.Boolean" value="true"/>
+      </AuxValues>
+
+      <Layout class="org.netbeans.modules.form.compat2.layouts.support.JScrollPaneSupportLayout"/>
+      <SubComponents>
+        <Component class="javax.swing.JTextPane" name="jTextPane3">
+        </Component>
+      </SubComponents>
+    </Container>
+  </NonVisualComponents>
+  <Properties>
+    <Property name="defaultCloseOperation" type="int" value="2"/>
+    <Property name="title" type="java.lang.String" value="Info."/>
+    <Property name="iconImage" type="java.awt.Image" editor="org.netbeans.modules.form.RADConnectionPropertyEditor">
+      <Connection code="Toolkit.getDefaultToolkit().getImage(getClass().getResource(&quot;/IMG/ic_launcher-web.png&quot;))" type="code"/>
+    </Property>
+    <Property name="undecorated" type="boolean" value="true"/>
+  </Properties>
+  <SyntheticProperties>
+    <SyntheticProperty name="formSizePolicy" type="int" value="1"/>
+    <SyntheticProperty name="generateCenter" type="boolean" value="true"/>
+  </SyntheticProperties>
+  <AuxValues>
+    <AuxValue name="FormSettings_autoResourcing" type="java.lang.Integer" value="0"/>
+    <AuxValue name="FormSettings_autoSetComponentName" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_generateFQN" type="java.lang.Boolean" value="true"/>
+    <AuxValue name="FormSettings_generateMnemonicsCode" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_i18nAutoMode" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_layoutCodeTarget" type="java.lang.Integer" value="2"/>
+    <AuxValue name="FormSettings_listenerGenerationStyle" type="java.lang.Integer" value="0"/>
+    <AuxValue name="FormSettings_variablesLocal" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_variablesModifier" type="java.lang.Integer" value="2"/>
+  </AuxValues>
+
+  <Layout>
+    <DimensionLayout dim="0">
+      <Group type="103" groupAlignment="0" attributes="0">
+          <Component id="jPanel1" min="-2" max="-2" attributes="0"/>
+      </Group>
+    </DimensionLayout>
+    <DimensionLayout dim="1">
+      <Group type="103" groupAlignment="0" attributes="0">
+          <Component id="jPanel1" min="-2" pref="501" max="-2" attributes="0"/>
+      </Group>
+    </DimensionLayout>
+  </Layout>
+  <SubComponents>
+    <Container class="javax.swing.JPanel" name="jPanel1">
+      <Properties>
+        <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+          <Color blue="ff" green="ff" red="ff" type="rgb"/>
+        </Property>
+        <Property name="border" type="javax.swing.border.Border" editor="org.netbeans.modules.form.editors2.BorderEditor">
+          <Border info="org.netbeans.modules.form.compat2.border.LineBorderInfo">
+            <LineBorder roundedCorners="true">
+              <Color PropertyName="color" blue="ff" green="99" red="99" type="rgb"/>
+            </LineBorder>
+          </Border>
+        </Property>
+        <Property name="preferredSize" type="java.awt.Dimension" editor="org.netbeans.beaninfo.editors.DimensionEditor">
+          <Dimension value="[412, 473]"/>
+        </Property>
+      </Properties>
+
+      <Layout>
+        <DimensionLayout dim="0">
+          <Group type="103" groupAlignment="0" attributes="0">
+              <Group type="102" attributes="0">
+                  <EmptySpace max="-2" attributes="0"/>
+                  <Group type="103" groupAlignment="0" attributes="0">
+                      <Component id="jLabel1" max="32767" attributes="0"/>
+                      <Component id="jScrollPane4" alignment="1" max="32767" attributes="0"/>
+                      <Component id="jLabel2" alignment="0" pref="386" max="32767" attributes="0"/>
+                      <Group type="102" attributes="0">
+                          <Component id="jLabel3" min="-2" max="-2" attributes="0"/>
+                          <EmptySpace min="0" pref="0" max="32767" attributes="0"/>
+                      </Group>
+                      <Component id="jLabel4" pref="0" max="32767" attributes="0"/>
+                  </Group>
+                  <EmptySpace max="-2" attributes="0"/>
+              </Group>
+              <Component id="jButton1" alignment="0" max="32767" attributes="0"/>
+          </Group>
+        </DimensionLayout>
+        <DimensionLayout dim="1">
+          <Group type="103" groupAlignment="0" attributes="0">
+              <Group type="102" alignment="1" attributes="0">
+                  <Component id="jLabel1" min="-2" max="-2" attributes="0"/>
+                  <EmptySpace max="-2" attributes="0"/>
+                  <Component id="jScrollPane4" min="-2" pref="186" max="-2" attributes="0"/>
+                  <EmptySpace max="-2" attributes="0"/>
+                  <Component id="jLabel2" min="-2" max="-2" attributes="0"/>
+                  <EmptySpace max="-2" attributes="0"/>
+                  <Component id="jLabel3" min="-2" max="-2" attributes="0"/>
+                  <EmptySpace max="-2" attributes="0"/>
+                  <Component id="jLabel4" min="-2" pref="134" max="-2" attributes="0"/>
+                  <EmptySpace max="-2" attributes="0"/>
+                  <Component id="jButton1" min="-2" pref="55" max="-2" attributes="0"/>
+                  <EmptySpace max="32767" attributes="0"/>
+              </Group>
+          </Group>
+        </DimensionLayout>
+      </Layout>
+      <SubComponents>
+        <Component class="javax.swing.JLabel" name="jLabel1">
+          <Properties>
+            <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+              <Font name="Dialog" size="14" style="0"/>
+            </Property>
+            <Property name="horizontalAlignment" type="int" value="0"/>
+            <Property name="text" type="java.lang.String" value="&lt;html&gt;&lt;u&gt;Informa&#xe7;&#xf5;es&lt;/u&gt;&lt;/html&gt;"/>
+          </Properties>
+        </Component>
+        <Container class="javax.swing.JScrollPane" name="jScrollPane4">
+          <Properties>
+            <Property name="border" type="javax.swing.border.Border" editor="org.netbeans.modules.form.editors2.BorderEditor">
+              <Border info="null"/>
+            </Property>
+            <Property name="horizontalScrollBarPolicy" type="int" value="31"/>
+            <Property name="toolTipText" type="java.lang.String" value=""/>
+          </Properties>
+          <AuxValues>
+            <AuxValue name="autoScrollPane" type="java.lang.Boolean" value="true"/>
+          </AuxValues>
+
+          <Layout class="org.netbeans.modules.form.compat2.layouts.support.JScrollPaneSupportLayout"/>
+          <SubComponents>
+            <Component class="javax.swing.JTextArea" name="jTextArea1">
+              <Properties>
+                <Property name="editable" type="boolean" value="false"/>
+                <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+                  <Color blue="e4" green="e4" red="e4" type="rgb"/>
+                </Property>
+                <Property name="columns" type="int" value="20"/>
+                <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                  <Font name="Segoe UI" size="14" style="0"/>
+                </Property>
+                <Property name="lineWrap" type="boolean" value="true"/>
+                <Property name="rows" type="int" value="5"/>
+                <Property name="tabSize" type="int" value="4"/>
+                <Property name="text" type="java.lang.String" value="Chat P2P que funciona em rede local (LAN) conectando 2 ou mais dispositivos utilizando de Sockets em java. Para isso um dos dispositivos precisa ser o Servidor fornecendo um nome, uma porta (algumas portas s&#xe3;o do sistema...), por padr&#xe3;o a 9898, e o endere&#xe7;o IP do dispositivo que &#xe9; adivinhado pelo timey wimey. Depois de criado o server basta criar o client fornecendo o IP e a porta do server j&#xe1; criado. N&#xe3;o &#xe9; preciso conex&#xe3;o com a internet, no entanto a rede que os dispositivos compartilham precisa ser est&#xe1;vel.&#xa;&#xa;----------------PASSO A PASSO DETALHADO-------------&#xa;Caso A: Seu dispositivo ser&#xe1; Servidor:&#xa;        1- Clique em &apos;Iniciar Servidor&apos; e forne&#xe7;a um nome &#x9;&#x9;para sala nome este que, ficar&#xe1; vis&#xed;vel para todos &#x9;&#x9;conectados a esse servidor. Logo em seguida &#x9;&#x9;&#x9;forne&#xe7;a uma porta (4 d&#xed;gitos e lembre-se algumas &#x9;&#x9;portas s&#xe3;o usadas pelo sistema {...} ), por padr&#xe3;o a &#x9;&#x9;9898. Guarde o N&#xba; da porta e do endere&#xe7;o IP &#x9;&#x9;&#x9;do servidor.&#xa;        2- Com a porta e o endere&#xe7;o IP em m&#xe3;os, clique em&#xa;&#x9; &apos;Iniciar Cliente&apos; na tela inicial e forne&#xe7;a o endere&#xe7;o &#x9;&#x9; IP e o N&#xba; da porta. Se tudo correr bem ser&#xe1; &#xa;             solcitado um nome e uma cor. Depois disso o&#xa;             atributo: edit&#xe1;vel do do editText deve mudar &#x9;&#x9;&#x9; para true e voc&#xea; poder&#xe1; digitar. &#xa;Caso B: Voc&#xea; ser&#xe1; somente Cliente:&#xa;        1- Pe&#xe7;a ao dono do dispositivo que faz o papel de &#x9;             servidor o N&#xba; da porta e o endere&#xe7;o IP. Ent&#xe3;o siga&#xa;&#x9; a etap&#xe1; 2 do caso A.&#xa;&#xa;------------------------PARA TROUXAS--------------------&#xa;OBS: 1- Os dispositivos que ser&#xe3;o conectados precisam &#x9;&#x9; estar na mesma rede.&#xa;OBS: 2- N&#xe3;o &#xe9; preciso internet, no entanto uma rede &#x9;&#x9;&#x9; est&#xe1;vel &#xe9; requerida.&#xa;OBS: 3- No android &#xe9; mesma coisa s&#xf3; muda a expreri&#xea;ncia &#x9;&#x9; visual e algumas cores.&#xa;OBS: 4- Por que eu deveria usar isto?&#xa;&#x9; -Voc&#xea; n&#xe3;o deve! Esse isto simplemente &#xe9;&#xa;&#x9; informa&#xe7;&#xe3;o sendo transmitida de um ponto a &#x9;&#x9;&#x9; outro que pode ser interpretada de forma &#x9;&#x9;&#x9; diferente por diferentes dispositivos, experimente&#xa;&#x9; usar o app como servidor no windows e conectar&#xa;&#x9; como cliente usando o mesmo app no android... &#x9;&#x9; isso &#xe9; s&#xf3; umas das poss&#xed;veis coisas.&#xa;OBS: 4- Seu portugu&#xea;s &#xe9; terr&#xed;vel!&#xa;&#x9; -Caguei.&#xa;OBS: 5- Quem &#xe9; Clara?&#xa;&#x9; -Google it: &quot;Clara Oswald&quot;&#xa;&#xa;-------------------------NONSENSE------------------------&#xa;A) Qual a resposta pra vida o universo e tudo mais?&#xa;&#x9;-42.&#xa;B) Quem &#xe9; a morsa? .-.&#xa;&#x9;-Well here&apos;s another clue for you all, the walrus was &#x9; Paul.&#xa;B) Por que o Flash &#xe9; fdp?&#xa;&#x9;-Pq ele n&#xe3;o deixo o Dr. Wells volta pro tempo dele.&#xa;C) Rose &gt; Clara&#xa;&#x9; -Eu diria que igual. A rose no final virou Bad Wolf&#xa;&#x9;  e salvol todo o futuro da s&#xe9;rie... mas a Clara &#x9;&#x9;&#x9;  morreu fico imortal viajando pelo tempo e espa&#xe7;o &#x9;&#x9;  em um macDonalds da vida.&#xa;D) Isso tem alguma coisa a ver com a clara do ovo?&#xa;&#x9;-N&#xe3;o, sua pira...&#xa;"/>
+                <Property name="wrapStyleWord" type="boolean" value="true"/>
+                <Property name="border" type="javax.swing.border.Border" editor="org.netbeans.modules.form.editors2.BorderEditor">
+                  <Border info="org.netbeans.modules.form.compat2.border.EmptyBorderInfo">
+                    <EmptyBorder bottom="2" left="2" right="3" top="2"/>
+                  </Border>
+                </Property>
+              </Properties>
+            </Component>
+          </SubComponents>
+        </Container>
+        <Component class="javax.swing.JLabel" name="jLabel2">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="&lt;html&gt;Criado por: &lt;span style=&quot;color:rgb(128,153,228); font-family: &apos;Segoe UI Light&apos;; font-size: 0.5cm;&quot;&gt;Pedro Augusto&lt;/span&gt;&lt;br&gt;Email: &lt;span style=&quot;color:rgb(128,153,228); font-family: &apos;Segoe UI Light&apos;; font-size:0.6cm; cursor:hand;&quot;&gt;pedro42augusto@gmail.com&lt;/span&gt;&lt;/html&gt;"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JLabel" name="jLabel3">
+          <Properties>
+            <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+              <Font name="Dialog" size="14" style="1"/>
+            </Property>
+            <Property name="text" type="java.lang.String" value="&lt;html&gt;&lt;a href=&quot;https://googledrive.com/host/0B5QkIk18Ljl-MXozcmc3bjVjSk0&quot;&gt;Vers&#xe3;o para Android&lt;/a&gt;&lt;/html&gt;"/>
+            <Property name="cursor" type="java.awt.Cursor" editor="org.netbeans.modules.form.editors2.CursorEditor">
+              <Color id="Cursor em Forma de M&#xe3;o"/>
+            </Property>
+          </Properties>
+          <Events>
+            <EventHandler event="mouseClicked" listener="java.awt.event.MouseListener" parameters="java.awt.event.MouseEvent" handler="jLabel3MouseClicked"/>
+          </Events>
+        </Component>
+        <Component class="javax.swing.JLabel" name="jLabel4">
+          <Properties>
+            <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+              <Color blue="e4" green="e4" red="e4" type="rgb"/>
+            </Property>
+            <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+              <Font name="Segoe UI Light" size="14" style="0"/>
+            </Property>
+            <Property name="foreground" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+              <Color blue="0" green="0" red="0" type="rgb"/>
+            </Property>
+            <Property name="text" type="java.lang.String" value="&lt;html&gt;&lt;span&gt; &quot; This is one corner&#x2026; of one country, in one continent, on one&lt;br&gt;planet that&#x2019;s a corner of a galaxy that&#x2019;s a corner of a universe&lt;br&gt;that is forever growing and shrinking and creating and&lt;br&gt;destroying and never remaining the same for a single millisecond.  And there is so much, so much to see. &quot;&lt;/span&gt;&lt;br&gt;&lt;span style=&quot;font-size:0.55cm; color:green;&quot;&gt;-The Doctor&lt;/span&gt;&lt;/html&gt; "/>
+            <Property name="opaque" type="boolean" value="true"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JButton" name="jButton1">
+          <Properties>
+            <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+              <Color blue="ff" green="66" red="66" type="rgb"/>
+            </Property>
+            <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+              <Font name="Segoe UI" size="18" style="0"/>
+            </Property>
+            <Property name="foreground" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+              <Color blue="ff" green="ff" red="ff" type="rgb"/>
+            </Property>
+            <Property name="text" type="java.lang.String" value="OK"/>
+            <Property name="border" type="javax.swing.border.Border" editor="org.netbeans.modules.form.editors2.BorderEditor">
+              <Border info="null"/>
+            </Property>
+          </Properties>
+          <Events>
+            <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jButton1ActionPerformed"/>
+          </Events>
+        </Component>
+      </SubComponents>
+    </Container>
+  </SubComponents>
+</Form>

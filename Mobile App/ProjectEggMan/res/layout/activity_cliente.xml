@@ -1,0 +1,88 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/white"
+    tools:context=".Cliente" 
+    android:id="@+id/mainCliente"
+    android:descendantFocusability="beforeDescendants"
+  	android:focusableInTouchMode="true">
+
+    <LinearLayout
+        android:id="@+id/titleContent"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/clienteNomeSala"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@color/color_content"
+                android:padding="5dp"
+                android:scrollbars="horizontal"
+                android:text="@string/default_nome_sala_activity_Cliente"
+                android:textColor="@android:color/white"
+                android:textSize="20sp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@android:color/white"
+                android:textSize="20sp"
+                android:background="#6262F2"
+                android:padding="5dp"
+                android:text="@string/plus" 
+                android:gravity="center"/>
+
+    </LinearLayout>
+
+    <com.trickstar.projecteggman.ListenerEditText
+        android:id="@+id/editTextMessage"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_marginBottom="3dp"
+        android:layout_marginLeft="3dp"
+        android:layout_marginRight="3dp"
+        android:layout_toLeftOf="@+id/buttonSend"
+        android:background="@drawable/borda2"
+        android:maxLines="4"
+        android:minHeight="48dp"
+        android:paddingLeft="3dp"
+        android:paddingRight="3dp"
+        android:textColor="@android:color/black"
+        android:textSize="20sp" />
+
+	<Button
+	    android:id="@+id/buttonSend"
+	    android:layout_width="wrap_content"
+	    android:layout_height="48dp"
+	    android:layout_alignParentBottom="true"
+	    android:layout_alignParentRight="true"
+	    android:layout_marginBottom="3dp"
+	    android:layout_marginRight="3dp"
+	    android:background="@color/color_content"
+	    android:focusable="true"
+	    android:text="@string/send_button_text_activity_cliente"
+	    android:textColor="@android:color/white"
+	    android:textStyle="bold" />
+
+	<ListView
+	    android:id="@+id/listViewCaixaMessages"
+	    android:layout_width="match_parent"
+	    android:layout_height="wrap_content"
+	    android:layout_above="@+id/editTextMessage"
+	    android:layout_alignLeft="@+id/editTextMessage"
+	    android:layout_alignRight="@+id/buttonSend"
+	    android:layout_below="@+id/titleContent"
+	    android:background="@android:color/white" 
+	    android:layout_marginBottom="3dp"
+	    android:divider="@android:color/white"
+        android:stackFromBottom="true"
+        android:transcriptMode="alwaysScroll">
+
+	</ListView>
+
+</RelativeLayout>

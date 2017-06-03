@@ -1,0 +1,117 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/Server"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/bg_fundo"
+    tools:context=".Servidor" >
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:background="@android:color/holo_blue_light"
+        android:gravity="center"
+        android:padding="5sp"
+        android:text="@string/app_name"
+        android:textColor="@android:color/white"
+        android:textSize="25sp" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/editText1"
+        android:layout_alignRight="@+id/editText1"
+        android:layout_below="@+id/textView1"
+        android:layout_marginTop="15dp"
+        android:text="@string/nomeSala"
+        android:textColor="@android:color/white"
+        android:textSize="20sp"
+        android:width="260dp" />
+   
+   <EditText
+       android:id="@+id/editText1"
+       android:layout_width="wrap_content"
+       android:layout_height="wrap_content"
+       android:layout_alignParentLeft="true"
+       android:layout_alignParentRight="true"
+       android:layout_below="@+id/textView2"
+       android:layout_marginLeft="10dp"
+       android:layout_marginRight="10dp"
+       android:background="@color/color_content"
+       android:inputType="text"
+       android:padding="5dp"
+       android:text="@string/default_nome_sala_activity_Servidor"
+       android:textColor="@android:color/white"
+       android:textSize="20sp" />
+    
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/editText1"
+        android:layout_alignRight="@+id/editText1"
+        android:layout_below="@+id/editText1"
+        android:layout_marginTop="15dp"
+        android:text="@string/porta"
+        android:textColor="@android:color/white"
+        android:textSize="20sp"
+        android:width="260dp" />
+   
+   <EditText
+       android:id="@+id/editText2"
+       android:layout_width="wrap_content"
+       android:layout_height="wrap_content"
+       android:layout_alignLeft="@+id/textView3"
+       android:layout_alignRight="@+id/textView3"
+       android:layout_below="@+id/textView3"
+       android:background="@color/color_content"
+       android:inputType="number"
+       android:padding="5dp"
+       android:text="@string/dafault_porta_activity_servidor"
+       android:textColor="@android:color/white"
+       android:textSize="20sp" />
+   
+   <TextView
+       android:id="@+id/textView4"
+       android:layout_width="wrap_content"
+       android:layout_height="wrap_content"
+       android:layout_alignLeft="@+id/editText2"
+       android:layout_alignRight="@+id/editText2"
+       android:layout_below="@+id/editText2"
+       android:layout_marginTop="15dp"
+       android:text="@string/endIP"
+       android:textColor="@android:color/white"
+       android:textSize="20sp"
+       android:width="260dp" />
+   
+   <EditText
+       android:id="@+id/editText3"
+       android:layout_width="wrap_content"
+       android:layout_height="wrap_content"
+       android:layout_alignLeft="@+id/textView4"
+       android:layout_alignRight="@+id/textView4"
+       android:layout_below="@+id/textView4"
+       android:background="@color/color_content"
+       android:inputType="text"
+       android:padding="5dp"
+       android:textColor="@android:color/white"
+       android:textSize="20sp" />
+
+    <Button
+        android:id="@+id/button1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/editText3"
+        android:layout_alignRight="@+id/editText3"
+        android:layout_below="@+id/editText3"
+        android:layout_marginTop="15dp"
+        android:background="@drawable/selector"
+        android:text="@string/run"
+        android:textColor="@android:color/white" 
+        android:onClick="runServer"/>
+
+</RelativeLayout>

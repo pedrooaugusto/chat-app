@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Clara</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="menu_settings">Settings</string>
+    <string name="tela_inicial_tv_1">O que deseja fazer?</string>
+    <string name="tela_inicial_bt_1">Iniciar Servidor</string>
+    <string name="tela_inicial_bt_2">Iniciar Cliente</string>
+    <string name="myClara">In Memory Of Clara Oswald - Souffle Girl</string>
+    <string name="title_activity_servidor">Servidor</string>
+    <string name="nomeSala">Nome da Sala:</string>
+    <string name="endIP">Endereço IP:</string>
+    <string name="porta">Nº da Porta:</string>
+    <string name="run">Run</string>
+    <string name="stop">Stop</string>
+    <string name="notification_title">Running!</string>
+    <string name="notification_text">O servidor está esperando por conexões!</string>
+    <string name="title_activity_cliente">Cliente</string>
+    <string name="lorem">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam eget ligula eu lectus lobortis condimentum. Aliquam nonummy auctor massa. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas.</string>
+    <string name="default_nome_sala_activity_Servidor">The Eggman</string>
+    <string name="dafault_porta_activity_servidor">9898</string>
+    <string name="send_button_text_activity_cliente">Send</string>
+    <string name="default_nome_sala_activity_Cliente">Nerd For Speed 2111,86</string>
+    <string name="text_hint_nome_cliente">Nome</string>
+    <string name="infoTitle"><u>Informações</u></string>
+    <string name="infoText">Chat P2P que funciona em rede local (LAN) conectando 2 ou mais dispositivos utilizando de Sockets em java. Para isso um dos dispositivos precisa ser o Servidor fornecendo um nome, uma porta (algumas portas são do sistema&#8230;), por padrão a 9898, e o endereço IP do dispositivo que é adivinhado pelo timey wimey. Depois de criado o server basta criar o client fornecendo o IP e a porta do server já criado. Não é preciso conexão com a internet, no entanto a rede que os dispositivos compartilham precisa ser estável.</string>
+    <string name="portPadr">9898</string>
+    <string name="crono">0/5s</string>
+    <string name="helpIcon"><b>\?</b></string>
+    <string-array name="arrayColor">
+        <item>Escolha Uma Cor</item>
+        <item>Blue</item>
+        <item>Red</item>
+        <item>Green</item>
+    </string-array>
+	<string name="plus"><marquee>Mais</marquee></string>
+</resources>

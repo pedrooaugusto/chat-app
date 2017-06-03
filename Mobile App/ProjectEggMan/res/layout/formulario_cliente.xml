@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/white"
+    android:orientation="vertical" >
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="@android:color/holo_blue_light"
+        android:gravity="center"
+        android:text="@string/app_name"
+        android:textAlignment="center"
+        android:textColor="@android:color/white"
+        android:textSize="25sp"/>
+
+    <EditText
+        android:id="@+id/DialogIP"
+        android:layout_width="match_parent"
+        android:layout_height="55dp"
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="5dp"
+        android:layout_marginTop="5dp"
+        android:background="@drawable/borda"
+        android:hint="@string/endIP"
+        android:padding="5dp"
+        android:singleLine="true"
+        android:textColor="@android:color/black"
+        android:textSize="20sp" />
+
+     <EditText
+         android:id="@+id/DialogPorta"
+         android:layout_width="match_parent"
+         android:layout_height="55dp"
+         android:layout_marginBottom="5dp"
+         android:layout_marginLeft="5dp"
+         android:layout_marginRight="5dp"
+         android:layout_marginTop="5dp"
+         android:background="@drawable/borda"
+         android:hint="@string/porta"
+         android:text="@string/portPadr"
+         android:inputType="number"
+         android:padding="5dp"
+         android:singleLine="true"
+         android:textColor="@android:color/black"
+         android:textSize="20sp" />
+
+     <TextView
+         android:id="@+id/cronoForm"
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+         android:text="@string/crono"
+         android:layout_margin="5dp"
+         android:textSize="20sp" />
+
+</LinearLayout>

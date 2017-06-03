@@ -1,0 +1,94 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/bg_fundo"
+	tools:context=".MainActivity">
+
+    <RelativeLayout
+        android:id="@+id/cab"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentTop="true"
+        android:background="@android:color/holo_blue_light"
+        android:orientation="horizontal" >
+
+        <TextView
+            android:id="@+id/textView1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:layout_marginLeft="20dp"
+            android:padding="5sp"
+            android:text="@string/app_name"
+            android:textColor="@android:color/white"
+            android:textSize="25sp" />
+
+        <ImageView
+            android:id="@+id/imageView1"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_marginTop="5dp"
+            android:src="@drawable/inter"
+            android:layout_marginRight="5dp"
+        	android:layout_alignParentRight="true" />
+
+    </RelativeLayout>
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true"
+        android:layout_below="@+id/cab"
+        android:layout_marginTop="22dp"
+        android:gravity="center"
+        android:padding="5sp"
+        android:text="@string/tela_inicial_tv_1"
+        android:textColor="@android:color/white"
+        android:textSize="20sp" />
+
+    <Button
+        android:id="@+id/button1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true"
+        android:layout_below="@+id/textView2"
+        android:layout_marginTop="28dp"
+        android:background="@drawable/selector"
+        android:text="@string/tela_inicial_bt_1"
+        android:textColor="@android:color/white"
+        android:typeface="sans" 
+        android:onClick="clickServidor"/>
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true"
+        android:layout_below="@+id/button1"
+        android:layout_marginTop="30dp"
+        android:background="@drawable/selector"
+        android:text="@string/tela_inicial_bt_2"
+        android:textColor="@android:color/white" 
+        android:onClick="clickCliente"/>
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true"
+        android:layout_below="@+id/button2"
+        android:layout_marginTop="28dp"
+        android:padding="5sp"
+        android:text="@string/myClara"
+        android:textColor="@android:color/secondary_text_dark"
+        android:textSize="15sp"
+        android:typeface="sans" />
+</RelativeLayout>
